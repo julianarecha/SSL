@@ -76,29 +76,43 @@ Adquirir y preparar los recursos necesarias para resolver los trabajos del curso
    puede cambiar el email público en GitHub.
 
 ## 3.6. Productos
-   Usuario // Usuario GitHub
-   `-- SSL // Repositorio público para la materia
-   |-- readme.md // Archivo front page del usuario
-   `-- 00-CHelloWorld // Carpeta el trabajo
-   |-- readme.md // Archivo front page del trabajo
-   |-- hello.c // Archivo fuente del programa
-   `-- output.txt // Archivo con la salida del programa
+
+    Usuario // Usuario GitHub
+
+    `-- SSL // Repositorio público para la materia
+
+        |-- readme.md // Archivo front page del usuario
+
+        `-- 00-CHelloWorld // Carpeta el trabajo
+
+            |-- readme.md // Archivo front page del trabajo
+
+            |-- hello.c // Archivo fuente del programa
+
+            `-- output.txt // Archivo con la salida del programa
 
 ## 3.7. Referencia
-   • [Git101]
-   1
-   https://docs.google.com/spreadsheets/d/19MZodiTIjD2WuImE8Y0WijNxIRdfL6vF_DvCn3uYlWg
-   11
-   Referencia
-   • [CompiladoresInstalacion]
-   • [KR1988] § 1.1 Comenzado
+
+• [Git101](https://josemariasola.github.io/ssl/assignments/Ssl%20Assignments.pdf#page=105&zoom=100,89,252)
+
+• [CompiladoresInstalacion](https://josemariasola.github.io/ssl/assignments/Ssl%20Assignments.pdf#page=105&zoom=100,89,285)
+   
+• [KR1988](https://josemariasola.github.io/ssl/assignments/Ssl%20Assignments.pdf#page=105&zoom=100,89,412)
 
 
 ### Hipótesis de trabajo que surgen luego de leer el enunciado.
-### TODO 
 
-Se utiliza Standard C23 con el compilador de Visual Studio Community 2022 (V17), CMake 3.25.1 en CLion 2023.1.
+Podriamos imprimir de diferentes maneras un texto.
 
+## Compilacion
+
+Se utiliza Standard C23 con el compilador de MinGW y Visual Studio Community 2022 (V17), CMake 3.25.2 y 3.25.1 en CLion 2023.1.
+
+Se genera el Makefile con MinGW en la carpeta de compilacion.
+
+Se incluye CMakeLists.txt utilizado para la compilacion.
+
+Se exporta desde la terminal de Windows la salida del programa compilado:
 ```
-.\00-CHelloWorld\cmake-build-debug\00_CHelloWorld_.exe > .\00-CHelloWorld\output.txt
+.\00-CHelloWorld\cmake-build-release\00_CHelloWorld_.exe > .\00-CHelloWorld\output.txt
 ``` 
