@@ -1,4 +1,6 @@
+/.vscode
 /.idea
 /*/.idea
 /cmake-build*/
 /*/cmake-build*/
+*.exe
