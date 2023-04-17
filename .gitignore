@@ -1,8 +1,10 @@
 *
+!*.gitignore
 !.gitignore
 !/*/CMakeLists.txt
 !/*/*.c
 !/*/Makefile
+!Makefile
 !*.md
 !/*/*.md
 !/*/output.txt
