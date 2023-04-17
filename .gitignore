@@ -5,6 +5,8 @@
 !/*/*.c
 !/*/Makefile
 !Makefile
+!makefile
+!/*/makefile
 !*.md
 !/*/*.md
 !/*/output.txt
