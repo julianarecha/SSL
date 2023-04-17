@@ -1,6 +1,8 @@
-/.vscode
-/.idea
-/*/.idea
-/cmake-build*/
-/*/cmake-build*/
-*.exe
+*
+!.gitignore
+!/*/CMakeLists.txt
+!/*/*.c
+!/*/Makefile
+!*.md
+!/*/*.md
+!/*/output.txt
